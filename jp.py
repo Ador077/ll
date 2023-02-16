@@ -53,7 +53,7 @@ def banner():
 	print("%s\x1b[1;35m\____/_/ |_/     /_/   /___/_/ |_/_____/"%(M))
 	print("")
 	print("%s\033[1;32m╔══════════════════════════════════════════╗"%(Z))
-	print("%s\033[1;91m║%s  Author\033[1;91m  :%sACTION-FIRE\033[1;91m║"%(Z,B,M,Z))
+	print("%s\033[1;91m║%s  Author\033[1;91m  :%sACTION-FIRE\033[1;91m║
 	print("%s\033[1;91m║%s  Github\033[1;91m  : github.com/ACTION-FIRE\033[1;91m║"%(Z,B,Z))
 	print("%s\033[1;91m║%s  Facebook\033[1;91m: facebook.com/ft.alvi.18\033[1;91m║"%(Z,B,Z))
 	print("%s\033[1;91m║%s  Version\033[1;91m : %sV.3.0\033[1;91m║"%(Z,B,H,Z))
